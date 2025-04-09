@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fskrabak-ambulance-wl-webapi-container
-        image: fskrabak/ambulance-wl-webapi:latest
+        image: filipskrabak/ambulance-wl-webapi:latest
         imagePullPolicy: Always
         ports:
         - name: webapi-port
